@@ -1,1 +1,10 @@
-const numeros = [3, 24, 1, 8, 11, 7, 15];
+const numeros = [10, 5, 20, 25, 15];
+let maiorNumero = numeros[0];
+
+for (const resultado of numeros) {
+  if (resultado > maiorNumero) {
+    maiorNumero = resultado;
+  }
+}
+
+console.log(maiorNumero); // Resultado: 25
